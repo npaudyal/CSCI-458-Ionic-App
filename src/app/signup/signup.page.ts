@@ -41,7 +41,9 @@ export class SignupPage implements OnInit {
           
           this.router.navigate(['tabs']);
           try {
-              await this.firestore.collection('users').add({
+            let user = this.afAuth.currentUser;
+            let uid = (await user).uid
+              await this.firestore.collection('users').doc(uid).set({
                 name:this.name,
                 email: this.email,
                 score:0
