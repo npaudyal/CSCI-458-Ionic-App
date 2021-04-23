@@ -1,0 +1,26 @@
+
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="medium">Settings</ion-title>
+    </ion-toolbar>
+  </ion-header>
+ 
+  <ion-list-header  id = "heading">
+    Adjust Display
+  </ion-list-header>
+<div id= "range-wrapper" class="range">
+
+  <ion-item class = "ion-padding">
+    <ion-range min="-200" max="200" pin color="secondary">
+      <ion-icon slot="start" size="small" name="contrast"></ion-icon>
+      <ion-icon slot="end" name="contrast"></ion-icon>
+    </ion-range>
+  </ion-item>
+  <div class ="logoutClass">
+    
+    <ion-button (click)="logout()" expand="block">Logout</ion-button>
+  </div>
+</div>
+</ion-content>

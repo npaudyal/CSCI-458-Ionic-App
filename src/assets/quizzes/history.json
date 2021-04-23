@@ -1,0 +1,36 @@
+{
+    "title":"History",
+    
+    "quizzes": [
+        {
+            "question":"What sport’s hall of fame enshrined Abraham Lincoln for having a stellar record of just one loss?",
+            "answer":"Wrestling",
+            "opt1":"Football",
+            "opt2":"Baseball"
+        },
+        {
+            "question":"Ever since World War Two, what beverage’s equipment is furnished in British battle tanks?",
+            "answer":"Tea",
+            "opt1":"Beer",
+            "opt2":"Wine"
+        },
+        {
+            "question":"What was the initial reported cause of death for Elvis Presley that spread in the media?",
+            "answer":"Heart attack",
+            "opt1":"High BP",
+            "opt2":"Car crash"
+        },
+        {
+            "question":"Which Asian country had seven of the ten deadliest wars in human history some even deadlier than world war one?",
+            "answer":"China",
+            "opt1":"Japan",
+            "opt2":"Vietnam"
+        },
+        {
+            "question":"In USSR, What does the letter “R” sand for?",
+            "answer":"Republics",
+            "opt1":"Russia",
+            "opt2":"Romania"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{data}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <ion-item lines="none">
+      <ion-button (click) ="study()" color="light" fill="clear">
+        <ion-row class="ion-align-items-center">
+         
+          <ion-icon name="book-outline" class = "ion-padding"></ion-icon>
+
+          <h4>Study</h4>
+      </ion-row>			
+    </ion-button>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-button (click) ="play()" color="light" fill="clear">
+        <ion-row class="ion-align-items-center">
+         
+          <ion-icon name="play-outline" class = "ion-padding"></ion-icon>
+
+          <h4>Play</h4>
+      </ion-row>			
+    </ion-button>
+    </ion-item>
+
+  </div>
+</ion-content>

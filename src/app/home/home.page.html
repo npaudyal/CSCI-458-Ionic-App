@@ -1,0 +1,95 @@
+<ion-header>
+  <ion-item>
+   <h1>Quizverse</h1>
+   
+  </ion-item>
+
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <div class="ion-padding">
+
+    <ion-row class="ion-align-items-center ion-padding-horizontal">
+      <ion-col size="6">
+        <h5>Topics</h5>
+      </ion-col>
+      <ion-col size="6" class="ion-text-right">
+        <ion-button fill="clear" color="dark">
+          <ion-icon slot="icon-only" name="ellipsis-horizontal"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-card>
+      <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2020/02/HistoryOfBranding_png_h6PULzhY.jpeg?auto=format&q=60&fit=max&w=930" />
+
+      <ion-card-content>
+
+        <ion-row>
+          <ion-col size="8">
+            <ion-card-title>History</ion-card-title>
+          </ion-col>
+          <ion-col size="4" class="ion-text-right">
+            <ion-button (click) = "historyQuiz()" fill="clear" color="dark" size="large" routerLink="/details">
+              <ion-icon slot="icon-only" name="chevron-forward-circle-outline"></ion-icon>
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <img src="https://i.ytimg.com/vi/bcO3qd-qduU/maxresdefault.jpg" />
+
+      <ion-card-content>
+
+        <ion-row>
+          <ion-col size="8">
+            <ion-card-title>Guess the capital</ion-card-title>
+          </ion-col>
+          <ion-col size="4" class="ion-text-right">
+            <ion-button (click) = "capitalQuiz()" fill="clear" color="dark" size="large" routerLink="/details">
+              <ion-icon slot="icon-only" name="chevron-forward-circle-outline"></ion-icon>
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <img src="https://cdn.one.org/us/wp-content/uploads/2015/04/rsz_img_1255.jpg" />
+
+      <ion-card-content>
+
+        <ion-row>
+          <ion-col size="8">
+            <ion-card-title>Who said it?</ion-card-title>
+          </ion-col>
+          <ion-col size="4" class="ion-text-right">
+            <ion-button (click) = "saidQuiz()" fill="clear" color="dark" size="large" routerLink="/details">
+              <ion-icon slot="icon-only" name="chevron-forward-circle-outline"></ion-icon>
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <img src="https://news4sanantonio.com/resources/media/cef3dfbb-5c4f-4ebb-9cfe-ba3ce0934995-large16x9_game.PNG?1533658715622" />
+
+      <ion-card-content>
+
+        <ion-row>
+          <ion-col size="8">
+            <ion-card-title>Finish the lyric</ion-card-title>
+          </ion-col>
+          <ion-col size="4" class="ion-text-right">
+            <ion-button (click) = "lyricQuiz()"  fill="clear" color="dark" size="large" routerLink="/details">
+              <ion-icon slot="icon-only" name="chevron-forward-circle-outline"></ion-icon>
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+
+  </div>
+</ion-content>
+

@@ -1,0 +1,36 @@
+{
+    "title":"Guess the capital",
+    
+    "quizzes": [
+        {
+            "question":"Capital of Bhutan?",
+            "answer":"Thimpu",
+            "opt1":"Kathmandu",
+            "opt2":"Dhaka"
+        },
+        {
+            "question":"Capital of Luxembourg?",
+            "answer":"Grand Duchy",
+            "opt1":"Diekirch",
+            "opt2":"Remich"
+        },
+        {
+            "question":"Capital of Australia?",
+            "answer":"Canberra",
+            "opt1":"Melbourne",
+            "opt2":"Sydney"
+        },
+        {
+            "question":"Capital of UAE",
+            "answer":"Abu Dhabi",
+            "opt1":"Doha",
+            "opt2":"Duabi"
+        },
+        {
+            "question":"Capital of Brazil?",
+            "answer":"Brasilia",
+            "opt1":"Rio",
+            "opt2":"Sao Paulo"
+        }
+    ]
+}

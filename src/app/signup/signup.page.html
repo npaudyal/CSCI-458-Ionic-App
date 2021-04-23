@@ -1,0 +1,31 @@
+
+
+<ion-content class="ion-padding ion-text-center">
+
+  <div class="logo">
+    <img src='../../assets/icon/Logo.png'>
+    </div>
+
+  <div class = "form">
+    <ion-item lines='none'>
+      <ion-input  placeholder="Enter your name" [(ngModel)] = "name">
+      </ion-input>
+    </ion-item>
+  <ion-item lines='none'>
+    <ion-input placeholder="Enter email" [(ngModel)] = "email">
+    </ion-input>
+  </ion-item>
+
+  <ion-item lines="none">
+    <ion-input  placeholder="Password" type='password' [(ngModel)] = "password">
+    </ion-input>
+  </ion-item>
+ 
+
+  <ion-button (click)="signup()" color='dark' expand='block'>Sign Up</ion-button>
+</div>
+
+<ion-button color='clear'>
+<span>Already have an account? <a (click) ="gotoLogin()">Login</a></span>
+</ion-button>
+</ion-content>

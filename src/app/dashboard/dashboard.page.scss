@@ -1,0 +1,38 @@
+ion-content{
+    --background: #f6f6f6;
+
+}
+
+.welcome-card img {
+    max-height: 35vh;
+    overflow: hidden;
+  }
+
+  ion-card{
+    height:200px;
+    width:200px;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+      
+  }
+
+  .cardContainer{
+      display: flex;
+      margin-top:20px;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .scoreboard{
+      display: flex;
+      justify-content: center;
+      margin-top:100px;
+      margin-bottom:20px;
+      
+  }
+
+  ion-avatar{
+      margin: 20px;
+  }

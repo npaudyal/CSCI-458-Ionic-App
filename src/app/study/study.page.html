@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Study</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <app-flash-card *ngFor="let card of flashcards">
+    <div class="flash-card-front">{{card.question}}</div>
+
+        <div class="flash-card-back">{{card.answer}}</div>
+
+  </app-flash-card>
+</ion-content>

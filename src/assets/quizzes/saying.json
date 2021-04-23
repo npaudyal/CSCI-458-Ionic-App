@@ -1,0 +1,36 @@
+{
+    "title":"Who said it?",
+    
+    "quizzes": [
+        {
+            "question":"Who said, 'We know each other! He's a friend from work!'",
+            "answer":"Thor",
+            "opt1":"Hulk",
+            "opt2":"Tony Stark"
+        },
+        {
+            "question":"Who said, 'I came, I saw, I conquered.'",
+            "answer":"Julius Ceaser",
+            "opt1":"Nepolean Bonaparte",
+            "opt2":"Hitler"
+        },
+        {
+            "question":"Who said, 'You miss 100 percent of the shots you never take.'",
+            "answer":"Wayne Gretzky",
+            "opt1":"Tiger Woods",
+            "opt2":"Mike Tyson"
+        },
+        {
+            "question":"Who said, 'Children today are tyrants. They contradict their parents, gobble their food, and tyrannize their teachers.'",
+            "answer":"Socrates",
+            "opt1":"Ernest Hemigway",
+            "opt2":"Richard Nixon"
+        },
+        {
+            "question":"Who said, 'War is fear cloaked in courage.'",
+            "answer":"William Westmoreland",
+            "opt1":"Genghis Khan",
+            "opt2":"Hitler"
+        }
+    ]
+}

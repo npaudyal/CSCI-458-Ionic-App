@@ -1,0 +1,36 @@
+{
+    "title":"Finish the lyric",
+    
+    "quizzes": [
+        {
+            "question":"Sin City's cold and empty, no one's around to _______.",
+            "answer":"Judge me",
+            "opt1":"Love me",
+            "opt2":"Comfort me"
+        },
+        {
+            "question":"Shall I stay? Would it be _______?",
+            "answer":"a Sin",
+            "opt1":"alright",
+            "opt2":"okay"
+        },
+        {
+            "question":"Haven't done my taxes, I'm too ________.",
+            "answer":"turnt up",
+            "opt1":"mixed up",
+            "opt2":"backed up"
+        },
+        {
+            "question":"I'd rather be dry, but at least ________",
+            "answer":"I am alive",
+            "opt1":"I am in love",
+            "opt2":"You are here"
+        },
+        {
+            "question":"But try to play it cool, baby, I ain't ________",
+            "answer":"Playing by the rules",
+            "opt1":"Just here for the view",
+            "opt2":"Dealing with your moods"
+        }
+    ]
+}
